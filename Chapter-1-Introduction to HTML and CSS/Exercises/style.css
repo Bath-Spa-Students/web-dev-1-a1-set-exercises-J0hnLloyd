@@ -1,0 +1,110 @@
+body {
+    background-color: rgb(255, 245, 197); /*Background Color*/
+}
+
+.title {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    text-align: center;
+}
+
+.RamnLogo { /* Inserting the ramen Ramen picture */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    
+    border-radius: 40px;
+    border-style: dotted;
+}
+
+.titlespan { /* Changing the size & font of the (RAMEN HACKS!)*/
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-small;
+}
+
+.ingredienttitle {  
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    margin-left: 1%;
+    padding: 1%;
+}
+
+
+.intro { /* Paragraph intro designs/styles */
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+
+    background-color: rgb(255, 239, 222);
+    border-radius: 5px;
+
+    display: block; /* Display block for the intro Paragraph */
+    margin-top: 4%;
+    margin-bottom: 4%;
+    padding: 5%;
+    margin-left: auto;
+    margin-right: auto; 
+    width: 45%;
+}
+
+.ppicture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    
+    border-radius: 80px;
+    border-style: dotted;
+}
+
+.ulist {
+    font-family: 'Courier New', Courier, monospace;
+
+    background-color: rgb(255, 239, 222);
+    border-radius: 5px;
+
+    display: block; /* Display block for the intro Paragraph */
+    margin-top: 1%; 
+    margin-bottom: 1%; 
+    padding: 2%; 
+    margin-left: 5%; 
+    width: 25%;
+}
+
+.istructiontitle {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    margin-left: 1%;
+    padding: 1%;
+}
+
+.olist {
+    font-family: 'Courier New', Courier, monospace;
+
+    background-color: rgb(255, 239, 222);
+    border-radius: 5px;
+
+    display: block; 
+    margin-top: 1%; 
+    margin-bottom: 1%; 
+    padding: 2%; 
+    margin-left: 5%; 
+    width: 25%;
+}
+
+.finalmsg {
+    background-color: rgb(255, 242, 219);
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 3%;
+}
+
+.gif {
+    border-style: groove;
+    border-radius: 30px;
+
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
