@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="E2.css">
+</head>
+<body>
+
+ <!--
+
+Pick a television series, film or game and design a really simple one-page website (just text, no images). 
+
+-Your website should include:
+-An overview of the plot, key information, cast and/or creative team, characters and any reviews you can find. 
+-A nav bar at the top which allows the user to quickly navigate to sections further down the page (anchor Ids).
+-A link to the actual website of the film/game etc. which opens in a new tab when clicked. 
+-Use of an external CSS file to style elements creatively (avoid inline styling and use classes instead).
+-At least two classes. 
+-One link styled as a button.
+
+ -->
+
+ <header>
+    <nav>
+        <ul> <!-- unorder list for navigation-->
+            <li><a href="#Home">Home</a></li> <!-- Anchor for Home-->
+            <li><a href="#Overview">Overview</a></li> <!-- Anchor for Overview-->
+            <li><a href="#Cast">Cast</a></li> <!-- Anchor for Casst-->
+            <li><a href="#Reviews">Reviews</a></li> <!-- Anchor for Reviews-->
+        </ul>
+    </nav>
+</header>
+
+<section id="Home"> <!-- ID for Home-->
+    <h1 class="title">Haunting of the Hill House<hr></h1> <!-- Movie Title-->
+    <img src="Images/Thumbnail.jpg" class="Thumbnail"><!-- Image for Movie-->
+    <p></p> <!-- Making small space for image and line, (Not Important)-->
+    <hr> 
+</section>
+<main>
+    <section id="Overview">
+        <h2 class="Overview">Overview</h2>
+        <p class="Overv">The plot alternates between two timelines, following five adult siblings whose paranormal 
+            experiences at Hill House continue to haunt them in the present day, and flashbacks depicting events 
+            leading up to the eventful night in 1992 when the family fled from the mansion.
+        
+            <a href="https://www.imdb.com/title/tt6763664/" target="_blank" class="button">Visit Official Website</a></p>
+    </section>
+
+    <section id="Cast">
+        <h2 class="Overview">Cast</h2>
+
+        <div class="CastImage">
+            <div class="cast-member">
+                <img src="Cast/Steven.jpg" alt="Steven">
+                <p>Steven</p>
+            </div>
+            <div class="cast-member">
+                <img src="Cast/Nell.jpg" alt="Nell">
+                <p>Nell</p>
+            </div>
+            <div class="cast-member">
+                <img src="Cast/Luke.jpg" alt="Luke">
+                <p>Luke</p>
+            </div>
+            <div class="cast-member">
+                <img src="Cast/Shirley.jpg" alt="Shirley">
+                <p>Shirley</p>
+            </div>
+            <div class="cast-member">
+                <img src="Cast/Theodora.jpg" alt="Theodora">
+                <p>Theodora</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="Reviews">
+        <h2 class="ReviewsBorder">Reviews</h2>
+        <p class="Reviews">One of the series' standout aspects is its unparalleled shock factor, which surpasses that of many contemporary horror films. Each scare is meticulously crafted, blending psychological terror with visceral frights, keeping viewers on the edge of their seats throughout the series.<br> <br>
+
+            However, what truly sets "The Haunting of Hill House" apart is its unapologetically original story. Eschewing generic horror tropes, the series delves into the complexities of family dynamics and trauma, weaving a narrative that is both emotionally resonant and intellectually stimulating.<br> <br>
+            
+            The themes explored—such as grief, guilt, and the nature of fear—add layers of depth to the storytelling, elevating it beyond mere horror.</p>
+
+        <p class="Reviews2">
+            "The Haunting of Hill House" stands as a pinnacle in the realm of horror television, offering a multifaceted and gripping narrative that transcends the genre's typical conventions.<br> <br>
+            
+            Through its expert videography, the series masterfully navigates between atmospheric shots and chilling sequences, effectively setting a haunting tone that lingers long after the credits roll.
+        </p>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 Movie/Game Website</p>
+</footer>
+    
+</body>
+</html>
