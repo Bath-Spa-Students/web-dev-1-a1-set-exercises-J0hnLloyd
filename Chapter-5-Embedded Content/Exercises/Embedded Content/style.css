@@ -1,0 +1,18 @@
+body {
+    padding-top: 6%; 
+    display: flex; /* Display for contents*/
+    flex-direction: column; /* Arrange elements vertically */ 
+    align-items: center; /* Algins the "content" to center*/
+}
+
+h1 {
+    text-align: center; /* Algins the title to center*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /* font family of title*/
+}
+
+video {
+    width: 700px; /* Adjusts the width of the video*/
+    height: 400px; /* Adjusts the height of the video*/
+    border-top: .5px solid #000000; /* thin border at the top of the video*/
+    border-bottom: .5px solid #000000; /* thin border at the bottom of the video*/
+}
