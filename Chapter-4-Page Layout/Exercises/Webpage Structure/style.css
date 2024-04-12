@@ -1,0 +1,123 @@
+.header {
+    background-color: #17072b; /* Change this to the color you want */
+    width: 100%;
+    position: absolute; /* Postion*/
+    top: 0;
+    left: 0;
+    padding-bottom: 1.1%; /* Height/lenght of entirety of the block*/
+  }
+
+.title {
+    color: white; /* Font color for Title*/
+    font-size: 350%; /* Font size for Title*/
+    font-family: Tahoma; /* Font Family for Title*/
+    text-align: center; /* Aligns the text to Center*/
+    margin-bottom: 1.5%;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center; /* Aligns the list/navbar contents to the center */
+}
+
+.navbar ul li {
+  display: inline-block; /* Display list items horizontally */
+  margin: 0 18px; /* Spacing between the list/navbar contents */
+  
+  font-family: 'Arial';
+  font-size: 28px; /* font size of list/navbar contents */
+  color: white; /* color for the text */
+}
+
+main {
+  margin-top:215px; /* Adjust this value to make space for the fixed header */
+  padding-left: 15px;
+  text-align: left; /* Aligns the content to center */
+}
+
+main h2 {
+  font-family: 'Arial'; /* Family font*/
+  font-size: 28px; /* Font size for "Welcome"*/
+  color: #000000; /* Font color for "Welcome"*/
+}
+
+main p {
+  font-family: 'Arial'; /* Family font*/
+  font-size: 18px; /* Font size for "Welcome"*/
+  color: #000000; /* Font color for "Welcome"*/
+  font-weight: 549;
+}
+
+.content-container { /* Contains the left & right section of the main tag*/
+  display: flex;
+}
+
+.leftsection {
+  flex: 1; /* Occupy remaining space */
+  padding: 0px 20px 20px 0px; /* Padding for the picture */
+}
+
+.leftsection img {
+  width: 100%; /* Lenght/Width of the image*/
+  height: 400px; /* Height of the image*/
+}
+
+.rightsection {
+  width: 425px; /* Block Width */
+  height: 360px; /* Adjust height automatically */
+  padding: 20px; /* Padding around the block */
+  background-color: #172d67; /* Set the background color of the block */
+}
+
+.rightsection p {
+  font-family: 'Tahoma'; /* Font family for Lineup*/
+  font-size: 35px; /* Font Size for Lineup*/
+  color: #ffffff; /* Font Color for Lineup*/
+  text-align: left; /* Aligns the text to left*/
+  padding-left: 15px; /* Spaces between the text and content within the block*/
+}
+
+.rightsection ul {
+  list-style-type: '- ';
+  padding-left: 15px; /* Spaces between the text and content within the block*/
+  padding-bottom: 10%; /* Spaces between the text and content within the block*/
+}
+
+.rightsection li {
+  font-family: 'Arial';  /* Font Family for List items*/
+  font-size: 20px; /* Font Size for List items*/
+  color: #ffffff; /* Font Color for List items*/
+  text-align: left; /* Aligns the list items to left*/
+  padding-bottom: 2px; /* Spaces between the text and content within the block*/
+}
+
+.rightsection img {
+  display: inline-block; /* Display*/
+  margin-right: 50px; /* Spaces between the outside area and content of the image*/
+  width: 100px; /* Size in terms of width*/
+  height: 100px; /* Size in terms of lenght*/
+}
+
+.image2 {
+  padding-left: 24%;  /* Spaces between the outside area and content of the image*/
+}
+
+.footer {
+  background-color: #6f44ab; /* Footer background color*/
+  position: fixed; /* Position fixed to keep it at the bottom*/
+  bottom: 0; /* Aligned at the bottom*/
+  left: 0;
+  width: 100%; /* Full width */
+  padding-top: .3%; /* Spaces between the outside area and content*/
+  text-align: center; /* Aligns text to center*/
+}
+
+.footer p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white; /* Font color for footer text*/
+  font-size: 20px; /* Font size for footer text*/
+  margin: 0; /**/
+  padding-bottom: .3%;
+}
