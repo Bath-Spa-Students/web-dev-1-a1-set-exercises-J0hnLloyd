@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif; /* Family font for any text*/
+    padding-top: 200px; /* Centering the block-container in the middle through padding*/
+    background-color: #dcc688cc; /* Background-color of body*/
+}
+
+.block-container {
+    width: 60%; /* Adjusted width for the block-container/calculator*/
+    margin: auto; /* Centers the calculator*/
+    background-color: #ffffff84;
+    border: 2px solid black; 
+    border-radius: 15px 15px 0px 0px;
+}
+
+h1 {
+    text-align: center; /* Aligns the title to center*/
+    color: #ffffff; /* Text color of the title*/
+    background-color: #000000; /* Background color for the title*/
+
+    margin-top: 0%; /* Moves up the heading to match the block-container*/
+    border-bottom: 2px solid black; /* Buttom border for the title*/
+    border-radius: 15px 15px 0px 0px; /* Border radius, only the top & buttom*/
+    padding-bottom: 10px; /* Padding for title to center through bottom*/
+    padding-top: 10px; /* Padding for title to center through top*/
+}
+
+/* Container for input fields*/
+.input-container {
+    display: flex; /* Display type for input fields*/
+    justify-content: center; /* Centers the input fields*/
+    margin-top: 20px; /* Spacing for input fields through margins*/
+}
+
+/* Styling for input fields*/
+input[type="number"] {
+    width: 100px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+input[type="number"]:focus {
+    border-color: rgb(0, 0, 0); /* Border color of the input fields*/
+}
+
+/* Styling for the block-container of the button*/
+.btn {
+    text-align: center; /* Align the content (button) at the center horizontally */
+    margin-top: 30px;
+}
+
+/* Styling for the button */
+button {
+    padding: 10px 20px;
+    background-color: rgb(255, 255, 255);
+    border: .5px solid black;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(176, 176, 176); /* When hovered, changes the color of the button*/
+}
+
+p {
+    text-align: center; /* Aligns Total amount to center*/
+    margin-top: 20px;
+}
+
+#totalAmount { /* Used ID instead of class... 
+               for some reason class doesn't work.*/
+    font-size: 24px;
+    font-weight: bold;
+}
