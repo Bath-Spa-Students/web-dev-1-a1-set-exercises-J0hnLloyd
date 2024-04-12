@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petrol Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="int.js"></script>
+</head>
+<body>
+    <div class="block-container">
+        <h1>Petrol Calculator</h1>
+        <div class="input-container">
+            <!-- Field to input the cost of petrol per liter -->
+            <div>
+                <p for="petrolPrice">Petrol price per litre</p> 
+                <input id="petrolPrice" placeholder="1.72" type="number"> <!-- Input field for Petrol Price-->
+            </div>
+            <!-- Field to input the number of liters purchased -->
+            <div>
+                <p for="liters">Liters</p>
+                <input id="liters" placeholder="1" type="number"> <!-- Input field for Liters-->
+            </div>
+        </div>
+        
+        <!-- Button to calculate the total amount -->
+        <div class="btn">
+            <button onclick="calculate()">Total Amount</button>
+            <!-- Display the total cost of petrol purchased -->
+            <p>Total Amount: <span id="totalAmount">0</span></p> <!-- <span id="totalAmount"> allows JavaScript to target the total Amount specifically for 
+                                                                 updating any changes.
+            -->
+        </div>
+    </div>
+</body>
+</html>
