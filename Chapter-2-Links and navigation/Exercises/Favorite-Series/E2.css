@@ -1,0 +1,128 @@
+body { /* CSS for background color*/
+    background-color: rgb(219, 228, 235)
+}
+
+nav ul { list-style-type: none; 
+         margin: 0;
+         padding: 0;
+         overflow: hidden;
+         background-color: #131212;
+        opacity: 0.9;}
+
+nav a { text-decoration:overline; /* decoration for linked styled as a button on nav. */
+        margin-left: 10px;
+        padding-right: 5px; /* Spacing */
+        color: aliceblue; /* Link text Color */
+        opacity: 1; /* Default opacity */
+        transition: opacity 0.5s ease; /* Add smooth transition effect */}
+
+nav a:hover { /* Opacity When Hover */
+    opacity: 0.5;
+}
+
+nav li { display: inline; /* Style for list in nav li */ 
+         font-size: 45px;
+         font-family:'Courier new';}
+    
+.title { /* CSS for title*/
+    padding-top: 10px;
+    font-size: xx-large;
+    font-weight: 50;
+    text-align: center;
+}
+
+.Thumbnail { /* CSS for Thumbnail */
+    display: block;
+    margin: 0 auto; /* centers the image horizontally */
+    width: 70%;
+    
+    border-radius: 40px;
+    border-style: dotted;
+    border-color: black;
+}
+
+.Overview { /* CSS for overview*/
+    background-color: azure;
+    text-align: center;
+
+    padding: 3%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+
+.Overv { /* CSS for paragraph of overview*/
+    background-color: azure;
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+
+    display: block; /* Display block for the intro Paragraph */
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding:4%;
+    margin: 0 auto; /* centers the image horizontally */
+    width: 30%;
+    border-style: groove;
+}
+
+.CastImage {
+    display: flex;
+    flex-direction: row; /* Change to row for horizontal layout */
+    justify-content: center; /* Align images horizontally at the center */
+}
+
+.CastImage img {
+    margin-right: 10px; /* Adjust spacing between images */
+}
+
+.cast-member {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-right: 10px; /* Adjust spacing between images */
+}
+
+.cast-member img {
+    max-width: 100%;
+}
+
+.cast-member p {
+    margin: 0;
+}
+
+.ReviewsBorder {
+    background-color: azure;
+    text-align: center;
+
+    padding: 3%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+
+.Reviews {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+
+    background-color: azure;
+    border-radius: 5px;
+
+    display: block; /* Display block for the intro Paragraph */
+    margin-top: 1%; 
+    margin-bottom: 1%; 
+    padding: 2%; 
+    margin-left: 5%; 
+    width: 25%;
+}
+
+.Reviews2 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+
+    background-color: azure;
+    border-radius: 5px;
+
+    display: block; /* Display block for the intro Paragraph */
+    margin-top: 1%; 
+    margin-bottom: 1%; 
+    padding: 2%; 
+    margin-left: 5%; 
+    width: 25%;
+}
